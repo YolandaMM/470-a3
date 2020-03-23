@@ -5,9 +5,9 @@ const mysql = require('mysql');
 const app = express();
 
 const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '123456',
+    host: '34.68.91.129',
+    user: 'remote',
+    password: 'remote',
     database: 'cmpt470'
 });
 connection.connect(err => {
